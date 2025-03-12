@@ -24,48 +24,48 @@
   <body>
     <!--header-->
     <header class="page-header">
-      <!--navigation-->
-      <div class="container header">
+      <!-- Navigation -->
+      <div class="container header-conteiner">
         <nav class="header-nav">
-          <a href="./index.html" class="logo header-logo"
-            >Web<span class="logo-part">Studio</span></a
-          >
+          <a href="./index.html" class="logo header-logo">
+            Web
+            <span class="logo-part">Studio</span>
+          </a>
           <ul class="nav-list">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Studio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Portfolio</a>
+              <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Contacts</a>
+              <a class="nav-link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
-        <!--email&phone-->
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
-              <a class="contacts-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <a class="contacts-link" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
             </li>
             <li class="contacts-item">
-              <a class="contacts-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+              <a class="contacts-link" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
             </li>
           </ul>
         </address>
       </div>
     </header>
-    <!--hero-->
+    <!-- main -->
     <main class="page-main">
+      <!--Hero-->
       <section class="main-button">
-        <div class="container button">
+        <div class="container">
           <h1 class="main-button-title">
-            Effective Solutions <br />
-            for Your Business
+            Effective Solutions for Your Business
           </h1>
           <button class="title-button" type="button">Order Service</button>
         </div>
@@ -74,8 +74,8 @@
 
       <section class="main-text">
         <div class="container">
-          <h2 hidden class="main-titles">Our Futures</h2>
-          <ul>
+          <h2 class="main-titles" hidden>Our Futures</h2>
+          <ul class="text-title-list">
             <li>
               <h3 class="futures">Strategy</h3>
               <p class="futures-text">
@@ -110,11 +110,11 @@
 
       <!--OurTeam-->
       <section class="main-team">
-        <div class="container">
-          <h2 class="main-titles">Our Team</h2>
+        <div class="conteiner">
+          <h2 class="main-titles team">Our Team</h2>
           <!--Mark-->
-          <ul>
-            <li class="team-text">
+          <ul class="team-cards">
+            <li class="team-text text-card">
               <img
                 src="./images/img(3).jpg"
                 alt="Mark Guerrero"
@@ -122,12 +122,12 @@
                 height="260"
               />
 
-              <h3 class="futures">Mark Guerrero</h3>
+              <h3 class="futures card-names">Mark Guerrero</h3>
               <p class="futures-text">Product Designer</p>
             </li>
 
             <!--Tom-->
-            <li class="team-text">
+            <li class="team-text text-card">
               <img
                 src="./images/img(2).jpg"
                 alt="Tom Ford"
@@ -135,12 +135,12 @@
                 height="260"
               />
 
-              <h3 class="futures">Tom Ford</h3>
+              <h3 class="futures card-names">Tom Ford</h3>
               <p class="futures-text">Frontend Developer</p>
             </li>
 
             <!--Camila-->
-            <li class="team-text">
+            <li class="team-text text-card">
               <img
                 src="./images/img.jpg"
                 alt="Camila Garcia"
@@ -148,12 +148,12 @@
                 height="260"
               />
 
-              <h3 class="futures">Camila Garcia</h3>
+              <h3 class="futures card-names">Camila Garcia</h3>
               <p class="futures-text">Marketing</p>
             </li>
 
             <!--Daniel-->
-            <li class="team-text">
+            <li class="team-text text-card">
               <img
                 src="./images/img(1).jpg"
                 alt="Daniel Wilson"
@@ -161,7 +161,7 @@
                 height="260"
               />
 
-              <h3 class="futures">Daniel Wilson</h3>
+              <h3 class="futures card-names">Daniel Wilson</h3>
               <p class="futures-text">UI Designer</p>
             </li>
           </ul>
@@ -170,81 +170,100 @@
       <!--Portfolio-->
       <section class="main-portfolio">
         <div class="container">
-          <h2 class="main-titles">Our Portfolio</h2>
-          <ul>
-            <li>
+          <h2 class="main-titles portfolio">Our Portfolio</h2>
+          <ul class="portfolio-cadrs">
+            <li class="card-border">
               <img
                 src="./images/img1.jpg"
                 alt="Digital banking"
                 width="360"
                 height="300"
               />
-              <h3 class="futures names">Banking App</h3>
-              <p class="futures-text">App</p>
+              <div class="text-portfolio-cards">
+                <h3 class="futures names">Banking App</h3>
+                <p class="futures-text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="card-border">
               <img
                 src="./images/img2.jpg"
                 alt="NFC payment with smartphone"
                 width="360"
                 height="300"
               />
-              <h3 class="futures names">Cashless Payment</h3>
-              <p class="futures-text">Marketing</p>
+              <div class="text-portfolio-cards">
+                <h3 class="futures names">Cashless Payment</h3>
+                <p class="futures-text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="card-border">
               <img
                 src="./images/img3.jpg"
                 alt="Digital"
                 width="360"
                 height="300"
               />
-              <h3 class="futures names">Meditation App</h3>
-              <p class="futures-text">App</p>
+              <div class="text-portfolio-cards">
+                <h3 class="futures names">Meditation App</h3>
+                <p class="futures-text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="card-border">
               <img
                 src="./images/img4.jpg"
                 alt="Driver"
                 width="360"
                 height="300"
               />
-              <h3 class="futures names">Taxi Service</h3>
-              <p class="futures-text">Marketing</p>
+              <div class="text-portfolio-cards">
+                <h3 class="futures names">Taxi Service</h3>
+                <p class="futures-text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="card-border">
               <img
                 src="./images/img5.jpg"
                 alt="Screen illustrations"
                 width="360"
                 height="300"
               />
-              <h3 class="futures names">Screen Illustrations</h3>
-              <p class="futures-text">Design</p>
+              <div class="text-portfolio-cards">
+                <h3 class="futures names">Screen Illustrations</h3>
+                <p class="futures-text">Design</p>
+              </div>
             </li>
-            <li>
+            <li class="card-border">
               <img
                 src="./images/img6.jpg"
                 alt="Happy girl lerning online"
                 width="360"
                 height="300"
               />
-              <h3 class="futures names">Online Courses</h3>
-              <p class="futures-text">Marketing</p>
+              <div class="text-portfolio-cards">
+                <h3 class="futures names">Online Courses</h3>
+                <p class="futures-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo footer-logo"
-        >Web<span class="logo-part">Studio</span></a
-      >
-      <p class="footer-info">
-        Increase the flow of customers and <br />
-        sales for your business with digital <br />
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <div class="footer-text">
+          <a href="./index.html" class="logo footer-logo">
+            Web
+            <span class="logo-part">Studio</span>
+          </a>
+          <p class="footer-info">
+            Increase the flow of customers and
+            <br />
+            sales for your business with digital
+            <br />
+            marketing & growth solutions.
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
