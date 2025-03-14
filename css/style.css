@@ -333,6 +333,6 @@ padding-top: 120px;
 a.logo.footer-logo {
     margin-bottom: 16px;
 }
-.text-card {
+li.text-card {
     width: calc( (100% - 72px) / 4);
 }
