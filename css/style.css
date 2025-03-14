@@ -336,3 +336,6 @@ a.logo.footer-logo {
 li.text-card {
     width: calc( (100% - 72px) / 4);
 }
+.ul-element {
+width: calc((100% - 72px) / 4);
+}
