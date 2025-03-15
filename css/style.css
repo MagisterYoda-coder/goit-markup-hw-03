@@ -331,9 +331,9 @@ padding-top: 120px;
 a.logo.footer-logo {
     margin-bottom: 16px;
 }
-li.text-card {
+/* li.text-card {
     width: calc( (100% - 72px) / 4);
-}
+} */
 .ul-element {
 width: calc((100% - 72px) / 4);
 }
