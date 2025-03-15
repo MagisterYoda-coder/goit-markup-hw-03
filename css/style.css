@@ -224,26 +224,29 @@ display: flex;
     }
     .page-header {
        
-        padding: 24px 0;
+        /* padding: 24px 0; */
         background-color: #fff;
         border-bottom: #E7E9FC solid 1px;
     }
+
+    .page-header a {
+        display: block;
+padding: 24px 0;
+     
+}
+
 
                                     /* hero */
 
 
 .text-title-list {
     display: flex;
-    padding: 120px 0;
     gap: 24px;
 }
  
                                    /* our team */  
 
-h2.team {
-    padding-top: 120px;
-    padding-bottom: 72px;
-}
+
 .main-text {
     padding: 120px 0;
 }
@@ -254,9 +257,7 @@ h2.team {
     justify-content: center;
     padding-bottom: 120px;
 }
-.main-team {
-    margin-bottom: 120px;
-}
+
 
 .text-card {
     text-align: center;
